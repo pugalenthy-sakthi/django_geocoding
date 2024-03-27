@@ -41,7 +41,6 @@ async def async_file_upload(request:HttpRequest):
         formdata = aiohttp.FormData()
         formdata.add_field('file',file.file,filename=file.name)
         url = 'http://localhost:8000/upload/fileupload'
-        pass
         async with aiohttp.ClientSession() as session:
           async with session.post(url,data = formdata,headers = {'Authorization':request.headers['Authorization']}) as response:
             pass
