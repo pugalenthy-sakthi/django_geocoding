@@ -7,7 +7,11 @@ import traceback
 
 open_paths = [
   '/auth/login',
-  '/auth/signup'
+  '/auth/signup',
+  '/auth/google/login',
+  '/auth/oauth/google',
+  '/favicon.ico'
+  
 ]
 
 class token_required:
