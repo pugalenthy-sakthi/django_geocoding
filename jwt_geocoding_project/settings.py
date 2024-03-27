@@ -31,7 +31,8 @@ INSTALLED_APPS = [
     'user_app',
     'django_apscheduler',
     'student_mongodb_app',
-    'upload_app'
+    'upload_app',
+    'geocoding_app'
 ]
 
 
