@@ -30,7 +30,8 @@ INSTALLED_APPS = [
     'security_app',
     'user_app',
     'django_apscheduler',
-    'student_mongodb_app'
+    'student_mongodb_app',
+    'upload_app'
 ]
 
 
